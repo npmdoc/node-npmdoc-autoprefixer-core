@@ -49,6 +49,8 @@
 <h1>api documentation for
     <a
 
+        href="https://github.com/ai/autoprefixer-core#readme"
+
     >autoprefixer-core (v6.0.1)</a>
 </h1>
 <h4>autoprefixer-core was depreacted, use autoprefixer</h4>
@@ -63,6 +65,15 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.autoprefixer-core.autoprefixer-core">
             function <span class="apidocSignatureSpan"></span>autoprefixer-core
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.autoprefixer-core.index">
+            function <span class="apidocSignatureSpan">autoprefixer-core.</span>index
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -100,6 +111,49 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.autoprefixer-core.index">module autoprefixer-core.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.autoprefixer-core.index.index">
+            function <span class="apidocSignatureSpan">autoprefixer-core.</span>index
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.autoprefixer-core.index.info">
+            function <span class="apidocSignatureSpan">autoprefixer-core.index.</span>info
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.autoprefixer-core.index.process">
+            function <span class="apidocSignatureSpan">autoprefixer-core.index.</span>process
+            <span class="apidocSignatureSpan">(root, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">autoprefixer-core.index.</span>data</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">autoprefixer-core.index.</span>defaults</span>
+
+        </li>
+
+    </ol></li>
+
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -109,6 +163,24 @@
     <h2>
         <a href="#apidoc.element.autoprefixer-core.autoprefixer-core" id="apidoc.element.autoprefixer-core.autoprefixer-core">
         function <span class="apidocSignatureSpan"></span>autoprefixer-core
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function creator() {
+  var transformer = initializer.apply(undefined, arguments);
+  transformer.postcssPlugin = name;
+  transformer.postcssVersion = new _processor2.default().version;
+  return transformer;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.autoprefixer-core.index" id="apidoc.element.autoprefixer-core.index">
+        function <span class="apidocSignatureSpan">autoprefixer-core.</span>index
         <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
@@ -142,6 +214,63 @@
     <h2>
         <a href="#apidoc.element.autoprefixer-core.process" id="apidoc.element.autoprefixer-core.process">
         function <span class="apidocSignatureSpan">autoprefixer-core.</span>process
+        <span class="apidocSignatureSpan">(root, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">process = function (root, opts) {
+  return postcss([creator(opts)]).process(root, opts);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.autoprefixer-core.index" id="apidoc.module.autoprefixer-core.index">module autoprefixer-core.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.autoprefixer-core.index.index" id="apidoc.element.autoprefixer-core.index.index">
+        function <span class="apidocSignatureSpan">autoprefixer-core.</span>index
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function creator() {
+  var transformer = initializer.apply(undefined, arguments);
+  transformer.postcssPlugin = name;
+  transformer.postcssVersion = new _processor2.default().version;
+  return transformer;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.autoprefixer-core.index.info" id="apidoc.element.autoprefixer-core.index.info">
+        function <span class="apidocSignatureSpan">autoprefixer-core.index.</span>info
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">info = function () {
+  return module.exports().info();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.autoprefixer-core.index.process" id="apidoc.element.autoprefixer-core.index.process">
+        function <span class="apidocSignatureSpan">autoprefixer-core.index.</span>process
         <span class="apidocSignatureSpan">(root, opts)</span>
         </a>
     </h2>
