@@ -1,6 +1,6 @@
 # npmdoc-autoprefixer-core
 
-#### api documentation for  autoprefixer-core (v6.0.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-autoprefixer-core.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-autoprefixer-core) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-autoprefixer-core.svg)](https://travis-ci.org/npmdoc/node-npmdoc-autoprefixer-core)
+#### basic api documentation for  [autoprefixer-core (v6.0.1)](https://github.com/ai/autoprefixer-core#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-autoprefixer-core.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-autoprefixer-core) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-autoprefixer-core.svg)](https://travis-ci.org/npmdoc/node-npmdoc-autoprefixer-core)
 
 #### autoprefixer-core was depreacted, use autoprefixer
 
@@ -21,15 +21,39 @@
 ```json
 
 {
-    "name": "autoprefixer-core",
-    "version": "6.0.1",
-    "description": "autoprefixer-core was depreacted, use autoprefixer",
-    "author": "Andrey Sitnik <andrey@sitnik.ru>",
-    "license": "MIT",
-    "repository": "ai/autoprefixer-core",
+    "author": {
+        "name": "Andrey Sitnik"
+    },
+    "bugs": {
+        "url": "https://github.com/ai/autoprefixer-core/issues"
+    },
     "dependencies": {
         "autoprefixer": "^6.0.0"
-    }
+    },
+    "description": "autoprefixer-core was depreacted, use autoprefixer",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "969f74b60e568c0cb1c638355f89ad6e6ae31ad2",
+        "tarball": "https://registry.npmjs.org/autoprefixer-core/-/autoprefixer-core-6.0.1.tgz"
+    },
+    "gitHead": "bba246bdd8ad6cc0c7cd501c825f2e69bf8d87b9",
+    "homepage": "https://github.com/ai/autoprefixer-core#readme",
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "ai"
+        }
+    ],
+    "name": "autoprefixer-core",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ai/autoprefixer-core.git"
+    },
+    "scripts": {},
+    "version": "6.0.1",
+    "bin": {}
 }
 ```
 
